@@ -3,30 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
     <title>Weather app</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city" required />
-        <input type="submit" value="search" />
-      </form>
-    </header>
-    <div>
-      <h1>Nottingham</h1>
-      <p>
-        Saturday 23:11, scattered clouds <br />
-        Humidity: 23%, Wind: 11mph
-      </p>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city" required />
+          <input type="submit" value="search" />
+        </form>
+      </header>
+      <div>
+        <h1>Nottingham</h1>
+        <p>
+          Saturday 23:11, scattered clouds <br />
+          Humidity: 23%, Wind: 11mph
+        </p>
+      </div>
+      <div>☀️23°C</div>
+      <footer>
+        Coded by
+        <a href="https://github.com/HannahNC23">
+          Hannah Nicole Charles-Murphy</a
+        >
+        on
+        <a href="https://github.com/HannahNC23/Weather-forecast-HNCM">
+          GitHub</a
+        >
+        and hosted on
+        <a href="https://weather-forecast-hncm.netlify.app/"> Netlify</a>
+      </footer>
     </div>
-    <div>☀️23°C</div>
-    <footer>
-      Coded by
-      <a href="https://github.com/HannahNC23"> Hannah Nicole Charles-Murphy</a>
-      on
-      <a href="https://github.com/HannahNC23/Weather-forecast-HNCM"> GitHub</a>
-      and hosted on
-      <a href="https://weather-forecast-hncm.netlify.app/"> Netlify</a>
-    </footer>
   </body>
 </html>
