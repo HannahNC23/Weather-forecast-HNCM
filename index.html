@@ -16,12 +16,12 @@
   <body>
     <div class="weather-app">
       <header>
-        <form class="search-form" id="search-form">
+        <form class="search-form" id="searchForm">
           <input
             type="search"
             placeholder="Enter a city..."
             required
-            id="search-form-input"
+            id="searchFormInput"
             class="search-form-input"
           />
           <input type="submit" value="Search" class="search-form-button" />
@@ -30,7 +30,7 @@
       <main>
         <div class="weather-data">
           <div>
-            <h1 class="weather-city" id="weather-city">Nottingham</h1>
+            <h1 class="weather-city" id="weatherCity"></h1>
             <p class="weather-details">
               Saturday 23:11, scattered clouds <br />
               Humidity: <span class="details-numbers">23%</span>, Wind:
@@ -39,7 +39,7 @@
           </div>
           <div class="current-temp-container">
             <div class="current-temp-icon">☀️</div>
-            <div class="current-temp-value">23</div>
+            <div class="current-temp-value" id="currentTempValue"></div>
             <div class="current-temp-unit">°C</div>
           </div>
         </div>
