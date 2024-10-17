@@ -71,8 +71,9 @@ main {
 }
 
 .current-temp-icon {
-  font-size: 55px;
-  margin: 20px 0 0 0;
+  width: 100px;
+  height: 100px;
+  margin: 13px 0 0 0;
 }
 
 .current-temp-value {
