@@ -52,7 +52,29 @@ function handleSearchSubmit(event) {
   searchCity(searchInput.value);
 }
 
+function displayForecast() {
+  let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
+  let forecastHtml = "";
+
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `<div class="forecast-day">
+            <div class="forecast-day-date">${day}</div>
+            <div class="forecast-day-icon">🌤</div>
+            <div class="forecast-day-temp">
+              <div class="day-temp">15°</div>
+              <div class="day-temp">9°</div>
+            </div>
+          </div>`;
+  });
+
+  let forecastElement = document.querySelector("#weatherForecast");
+  forecastElement.innerHTML = forecastHtml;
+}
+
 let searchFormElement = document.querySelector("#searchForm");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Nottingham");
+displayForecast();
