@@ -103,8 +103,7 @@ main {
 }
 
 .forecast-day-icon {
-  font-size: 30px;
-  text-align: center;
+  width: 100%;
 }
 
 .forecast-day-temp {
