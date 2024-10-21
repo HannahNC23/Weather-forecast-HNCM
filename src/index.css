@@ -88,6 +88,38 @@ main {
   font-weight: 600;
 }
 
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0 0 0;
+}
+
+.forecast-day-date {
+  text-align: center;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  margin: 0 0 6px 0;
+}
+
+.forecast-day-icon {
+  font-size: 30px;
+  text-align: center;
+}
+
+.forecast-day-temp {
+  text-align: center;
+  color: #399161;
+  margin: 6px 0 0 0;
+  font-weight: 550;
+  display: flex;
+  justify-content: center;
+}
+
+.day-temp {
+  padding: 0 8px;
+}
+
 footer {
   padding: 30px 0 0 0;
   text-align: center;
